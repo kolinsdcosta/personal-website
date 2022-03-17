@@ -1,3 +1,86 @@
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: 0px;
+     font-family: 'Josefin Sans', sans-serif;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+	margin-left: 4%;
+	padding-left: 6%;
+}
+.half-width img{
+	width: 80%;
+}
+.top-banner{
+	background-image: url("images/header-bg.png");
+	padding: 150px;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+section{
+	height: 500px;
+	padding-bottom: 100px;
+}
+.name-highlight{
+	color: rgb(252, 96, 109);
+}
+.link-button{
+	text-decoration: none;
+	background-image: linear-gradient(45deg, rgb(233, 88, 88),rgb(173, 77, 77));
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+	font-weight: 700;
+}
+p{
+	color: dimgray;
+}
+.bio-area{
+	background-image: url(images/biography-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding: 150px;
+}
+.latest-area{
+	background-image: url(images/latest-work-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 150px;
+	text-align: center;
+}
+.three-width{
+	width: 23%;
+    float: left;
+	margin-left: 0%;
+	padding-left: 6%;
+}
+.three-width img{
+	width: 115%;
+}
+.footer-area{
+	background-image: url(images/footer-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 150px;
+	text-align: center;
+}
+.link-area{
+	background-image: linear-gradient(45deg, rgb(233, 88, 88),rgb(173, 77, 77));
+	padding: 10px 20px;
+	border-radius: 5px;
+	width: 40%;
+	margin: 0 auto;
+}
+.link-area a{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
+footer p{
+	text-align: center;
 }
